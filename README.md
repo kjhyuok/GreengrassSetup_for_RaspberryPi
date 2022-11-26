@@ -27,10 +27,7 @@ OS 설치를 위해 다음과 같이 진행합니다.
 운영체제 > Other general-purpose OS > Ubuntu Desktop 22.04.1 LTS(2022/09/25기준)
 
 다음은 **저장소-외장 MicroSD Card**를 선택 하고 ***쓰기*** 버튼을 클릭 합니다.
-
-:::alert{header="Important" type="warning"}
-꼭 **MicroSD Card** 가 맞는지 확인해 주세요.
-:::
+**_MicroSD Card** 가 맞는지 확인해 주세요.
 
 ![ras-04.png](./img/ras-04.png)
 
@@ -45,9 +42,7 @@ OS 쓰기작업에 대한 확인이 완료 되면 아래와 같은 완료 메시
 ## Raspberry Pi 에 Ubuntu OS환경설정
 
 SD Card를 사진과 같이 **Raspberry Pi 디바이스 뒷면** 에 삽입합니다.
-  :::alert{header="Important" type="warning"}
-  !삽입 방향을 유의해주세요.
-  :::
+**_삽입 방향을 유의해주세요.
 
 ![ras-07.png](./img/ras-07.png)
 
@@ -83,9 +78,9 @@ df -h
 9. PIP opencv 설치
 10. etc(openssh, vim)
 
-라이브러리를 직접 하나씩 설치할 수도 있지만 사전에 미리 정의된 스크립트를 아래와 같이 실행합니다.
+라이브러리를 직접 하나씩 설치하거나 사전에 미리 정리해 둔 간단한 명령 스크립트를 아래와 같이 다운로드 받아서 실행합니다.
 
-실행 스크립트에는 위 과정이 모두 포함되어 있습니다. 
+실행 스크립트에는 GG를 위해 필요한 install과정이 모두 포함되어 있습니다. 
 
 스크립트 실행 후 몇 분 정도 소요될 수 있습니다.
 
@@ -99,9 +94,5 @@ sudo ./gg_for_rbp.sh
 
 ![ras-10.png](./img/ras-10.png)
 
-축하합니다. **Raspberry Pi 디바이스로 AWS IoT Greengrass V2를 실습할 준비가 완료 되었습니다.**
+**Raspberry Pi 디바이스로 AWS IoT Greengrass V2를 실습할 준비가 완료**
 
-:::alert{header="Important" type="warning"}
-중요: 이 후의 실습 과정에 포함된 Linux Command 가 포함된 스크린샷은 AWS Cloud 9(Ubuntu OS)환경 기준으로 준비되어 있습니다.
-+ 현재 설정한 **Raspberry Pi와 같으므로** 수행해야 할 Linux Command 는 동일하게 실습에 참고하시면 됩니다.
-:::
