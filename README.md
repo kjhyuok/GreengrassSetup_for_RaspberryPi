@@ -14,7 +14,7 @@ AWS IoT Greengrass extends AWS to edge devices so that they can act on the data 
 ![ras-01.png](./img/ras-01.png)
 
 필요한 장치가 모두 준비되었다면,
-준비된 디바이스에 맞는 OS 설치를 위해 먼저 [Raspberry Pi OS](https://www.raspberrypi.com/software/) https://www.raspberrypi.com/software/ 로 이동합니다.
+준비된 디바이스에 맞는 OS 설치를 위해 먼저 [Raspberry Pi OS](https://www.raspberrypi.com/software/)로 이동합니다.
 자신의 랩탑에 맞는 ***OS Installer***를 선택 후 설치합니다.
 
 ![ras-02.png](./img/ras-02.png)
@@ -25,6 +25,7 @@ AWS IoT Greengrass extends AWS to edge devices so that they can act on the data 
 
 OS 설치를 위해 다음과 같이 진행합니다.
 운영체제 > Other general-purpose OS > Ubuntu Desktop 22.04.1 LTS(2022/09/25기준)
+(본 스샷에는 찍는 시점 실수로 Ubuntu 20.xx로 되어있으나 무시하셔도 됩니다. Ubuntu Desktop 22.04.1 LTS설치!!!)
 
 다음은 **저장소-외장 MicroSD Card**를 선택 하고 ***쓰기*** 버튼을 클릭 합니다.
 **_MicroSD Card** 가 맞는지 확인해 주세요.
