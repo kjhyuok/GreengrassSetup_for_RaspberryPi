@@ -5,22 +5,6 @@ AWS IoT Greengrass extends AWS to edge devices so that they can act on the data 
 
 이 페이지에서는 GG를 Raspberry Pi에 설치할 수 있는 환경설정을 기록 합니다.
 
-
-## Raspberry Pi를 디바이스로 활용
-
-Raspberry Pi로 실습을 하고자 하는 경우 아래와 같이 사전 설정을 한 후 **1. AWS Credentials for CLI** 을 이어서 진행합니다.
-
-:::alert{header="Info" type="info"}
-본 실습은 ***버지니아 북부(us-east-1)*** 리전을 기준으로 진행됩니다.
-2022년 9월 기준 Raspberry Pi 4B 디바이스 기준으로 작성하였습니다. 
-:::
-
-## 실습 준비
-
-   **Raspberry Pi 환경 준비**
-
-본 실습은 Raspberry Pi OS를 탑재한 Raspberry Pi 4 Computer 디바이스를 사용하여 진행하며, 다음의 준비가 필요 합니다.
-
 **장치 준비:** 
 
 라즈베리파이 본체, sd카드, sd카드 리더기, Micro HDMI Cable, 모니터, (유선)키보드, (유선)마우스, USB C Type 전원 Cable
