@@ -11,7 +11,7 @@ AWS IoT Greengrass extends AWS to edge devices so that they can act on the data 
 
 하단 사진과 같은 라즈베리파이, sd카드, sd카드 리더기 확인
 
-![ras-01.png](/static/images/1/ras-01.png)
+![ras-01.png](../img/ras-01.png)
 
 필요한 장치가 모두 준비되었다면,
 준비된 디바이스에 맞는 OS 설치를 위해 먼저 [Raspberry Pi OS](https://www.raspberrypi.com/software/) https://www.raspberrypi.com/software/ 로 이동합니다.
